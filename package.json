@@ -1,0 +1,20 @@
+{
+  "name": "@mediaman/restart-all-ecs-tasks",
+  "version": "0.0.1",
+  "description": "CLI tool to restart all ECS tasks inside a cluster",
+  "bin": {
+    "restart-all-ecs-tasks": "bin/restart-all-ecs-tasks.js"
+  },
+  "keywords": [
+    "aws",
+    "ecs",
+    "cli",
+    "docker",
+    "deployment"
+  ],
+  "author": "mediaman GmbH <hallo@mediaman.de>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.14.1"
+  }
+}
